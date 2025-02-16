@@ -32,4 +32,8 @@ npm install
     #JWT AUTH
     JWT_SECRET="secret"
     JWT_EXPIRES_IN=90d
+
+    #ARCJET https://arcjet.com/
+    ARCJET_ENV=development
+    ARCJET_KEY=""
     ```
