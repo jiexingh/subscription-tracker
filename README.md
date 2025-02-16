@@ -9,7 +9,7 @@ This is a small project for practicing subscription API using express
 npm install
 ```
 
-### Define Env Vairables
+### Define Env Variables
 
 .env.development.local
 .env.production.local
