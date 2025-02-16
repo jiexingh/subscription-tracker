@@ -23,4 +23,8 @@ NODE_ENV=<'development'||'production'>
 
 # DATABASE
 DB_URI=''
+
+#JWT AUTH
+JWT_SECRET="secret"
+JWT_EXPIRES_IN=90d
 ```
