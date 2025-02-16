@@ -1,6 +1,7 @@
 # Subscrption Tracker
 
 ## About
+
 This is a small project for practicing subscription API using express
 
 ### Install
@@ -11,20 +12,24 @@ npm install
 
 ### Define Env Variables
 
-.env.development.local
-.env.production.local
+1.  define env file
 
-```bash
-# PORT
-PORT=<you port || 5500>
+    - .env.development.local
+    - .env.production.local
 
-# NODE 环境
-NODE_ENV=<'development'||'production'>
+2.  define variable
 
-# DATABASE
-DB_URI=''
+    ```bash
+    # PORT
+    PORT=<you port || 5500>
 
-#JWT AUTH
-JWT_SECRET="secret"
-JWT_EXPIRES_IN=90d
-```
+    # NODE 环境
+    NODE_ENV=<'development'||'production'>
+
+    # DATABASE
+    DB_URI=''
+
+    #JWT AUTH
+    JWT_SECRET="secret"
+    JWT_EXPIRES_IN=90d
+    ```
