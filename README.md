@@ -36,4 +36,10 @@ npm install
     #ARCJET https://arcjet.com/
     ARCJET_ENV=development
     ARCJET_KEY=""
+
+    #QSTASH
+    QSTASH_URL=https://qstash.upstash.io
+    QSTASH_TOKEN=""
+    QSTASH_CURRENT_SIGNING_KEY=""
+    QSTASH_NEXT_SIGNING_KEY=""
     ```

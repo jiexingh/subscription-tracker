@@ -6,6 +6,9 @@ export const createSubscription = async (req, res, next) => {
       ...req.body,
       user: req.user._id,
     });
+
+    //TODO: workflow to send reminders
+
     res.status(201).json({
       success: true,
       data: subscription,
